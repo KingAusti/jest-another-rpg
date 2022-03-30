@@ -1,4 +1,4 @@
-const Potion = require('../lib/Potion')
+const Potion = require('../')
 
 test('creates a new health potion object', () => {
     const potion = new Potion('health');
